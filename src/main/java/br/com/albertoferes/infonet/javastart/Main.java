@@ -1,18 +1,17 @@
 package br.com.albertoferes.infonet.javastart;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
+import br.com.albertoferes.infonet.javastart.metodos.estaticos.MateMagica;
+import br.com.albertoferes.infonet.javastart.metodos.naoestaticos.TextoUtils;
 
 public class Main {
-
-    private static final Logger LOG = LogManager.getLogger(Main.class);
-
     public static void main(String[] args) {
-        testLogging();
-    }
+        double rq = MateMagica.raizQuadrada(81);
+        double m12 = MateMagica.calcularMultiploDe(10, 12);
 
-    public static void testLogging() {
-        LOG.debug("Hello World =)");
+        String lorem = "Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet...";
+
+        TextoUtils tu = new TextoUtils();
+
+        int tamanhoStingLorem = tu.obterTamanhoDoTexto(lorem);
     }
 }

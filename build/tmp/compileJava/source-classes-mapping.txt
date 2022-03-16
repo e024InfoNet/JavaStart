@@ -1,2 +1,23 @@
+br/com/albertoferes/infonet/javastart/operadores/Operadores.java
+ br.com.albertoferes.infonet.javastart.operadores.Operadores
+br/com/albertoferes/infonet/javastart/metodos/PlatgroundTexto.java
+ br.com.albertoferes.infonet.javastart.metodos.PlatgroundTexto
+br/com/albertoferes/infonet/javastart/controle/EstruturasDeControle.java
+ br.com.albertoferes.infonet.javastart.controle.EstruturasDeControle
+br/com/albertoferes/infonet/javastart/iteracao/EstruturaDeRepeticao.java
+ br.com.albertoferes.infonet.javastart.iteracao.EstruturaDeRepeticao
+br/com/albertoferes/infonet/javastart/poo/Livro.java
+ br.com.albertoferes.infonet.javastart.poo.Livro
+br/com/albertoferes/infonet/javastart/poo/IntroPOO.java
+ br.com.albertoferes.infonet.javastart.poo.IntroPOO
+br/com/albertoferes/infonet/javastart/metodos/PlaygroundMateMagica.java
+ br.com.albertoferes.infonet.javastart.metodos.PlaygroundMateMagica
+br/com/albertoferes/infonet/javastart/metodos/estaticos/MateMagica.java
+ br.com.albertoferes.infonet.javastart.metodos.estaticos.MateMagica
+br/com/albertoferes/infonet/javastart/metodos/naoestaticos/TextoUtils.java
+ br.com.albertoferes.infonet.javastart.metodos.naoestaticos.TextoUtils
 br/com/albertoferes/infonet/javastart/Main.java
  br.com.albertoferes.infonet.javastart.Main
+br/com/albertoferes/infonet/javastart/periodo/PeriodoHoroscopo.java
+ br.com.albertoferes.infonet.javastart.periodo.PeriodoHoroscopo
+ br.com.albertoferes.infonet.javastart.periodo.PeriodoHoroscopo$1
